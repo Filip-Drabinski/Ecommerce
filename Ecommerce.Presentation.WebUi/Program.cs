@@ -19,7 +19,7 @@ namespace Ecommerce.Presentation.WebUi
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddEcommerce(builder.Configuration);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

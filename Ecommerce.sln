@@ -9,9 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Presentation.WebU
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{26E05C0B-28B9-4D29-AA81-39E80E3ED873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Presentation.ClientApp", "Ecommerce.Presentation.ClientApp\Ecommerce.Presentation.ClientApp.csproj", "{B5D65DA8-2E1A-4CCA-810D-A4E3392DE383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Presentation.ClientApp", "Ecommerce.Presentation.ClientApp\Ecommerce.Presentation.ClientApp.csproj", "{B5D65DA8-2E1A-4CCA-810D-A4E3392DE383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Presentation.Api", "Ecommerce.Presentation.Api\Ecommerce.Presentation.Api.csproj", "{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Presentation.Api", "Ecommerce.Presentation.Api\Ecommerce.Presentation.Api.csproj", "{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Application", "Ecommerce.Application\Ecommerce.Application.csproj", "{149F5674-9633-4D44-A1C8-461024D32082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Infrastructure", "Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj", "{908F788F-2201-49EE-A71E-B364D8A5C1A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B09FB0AB-072B-4D8D-91CA-EAC86FBB7DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{E57C08AE-EF76-4F49-A4A8-8F19CF739E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Utilities.Mediatr.DependencyInjection", "Ecommerce.Utilities.Mediatr.DependencyInjection\Ecommerce.Utilities.Mediatr.DependencyInjection.csproj", "{113A78B3-69D0-442C-AE44-5DAAD03E0C5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +41,18 @@ Global
 		{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149F5674-9633-4D44-A1C8-461024D32082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149F5674-9633-4D44-A1C8-461024D32082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149F5674-9633-4D44-A1C8-461024D32082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149F5674-9633-4D44-A1C8-461024D32082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908F788F-2201-49EE-A71E-B364D8A5C1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F788F-2201-49EE-A71E-B364D8A5C1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F788F-2201-49EE-A71E-B364D8A5C1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F788F-2201-49EE-A71E-B364D8A5C1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113A78B3-69D0-442C-AE44-5DAAD03E0C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113A78B3-69D0-442C-AE44-5DAAD03E0C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113A78B3-69D0-442C-AE44-5DAAD03E0C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113A78B3-69D0-442C-AE44-5DAAD03E0C5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +61,10 @@ Global
 		{D703CD82-BDA9-4E78-95D0-96B230F79187} = {518747FF-0A67-474F-ABDF-1448AD91E17E}
 		{B5D65DA8-2E1A-4CCA-810D-A4E3392DE383} = {518747FF-0A67-474F-ABDF-1448AD91E17E}
 		{0B8B36F2-5D92-47A8-BE0C-69EAEB8C8B97} = {518747FF-0A67-474F-ABDF-1448AD91E17E}
+		{149F5674-9633-4D44-A1C8-461024D32082} = {26E05C0B-28B9-4D29-AA81-39E80E3ED873}
+		{908F788F-2201-49EE-A71E-B364D8A5C1A3} = {26E05C0B-28B9-4D29-AA81-39E80E3ED873}
+		{B09FB0AB-072B-4D8D-91CA-EAC86FBB7DB8} = {26E05C0B-28B9-4D29-AA81-39E80E3ED873}
+		{113A78B3-69D0-442C-AE44-5DAAD03E0C5D} = {E57C08AE-EF76-4F49-A4A8-8F19CF739E55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54B803AD-4B62-4CC3-B47D-3BC1C1BD631C}
